@@ -59,6 +59,7 @@ a {
   margin: 10px 0;
   font-weight: bold;
   font-size: larger;
+}
 
 header {
   text-align: center;
@@ -105,19 +106,19 @@ header {
   opacity: 1;
 }
 
-.container-josh{
-    justify-content: space-around;
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20px;
-    padding: 0;
+.container-josh {
+  justify-content: space-around;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0;
 }
-.container-fav{
-    display: flex;
-    border-radius: 10px;
-    overflow: hidden;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
+.container-fav {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
