@@ -1,3 +1,65 @@
+/* Recipe Styles */
+.recipeContainer {
+  text-align: center;
+  padding: 20px;
+}
+
+.recipeContainer h2 {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.recipeList {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 0;
+}
+
+.recipeList li {
+  background: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recipeList img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  padding: 5px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.recipeList a:hover {
+  text-decoration: none;
+  color: blue;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.recipeTitle {
+  font-size: 30px;
+  margin: 10px 0;
+  font-weight: bold;
+}
+.recipeLink {
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: larger;
+
 header {
   text-align: center;
 }
