@@ -122,3 +122,11 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
+body {
+  background-image: linear-gradient(rgb(255, 255, 255), rgba(99, 102, 105, 0.5)),
+    url("/images/food-background.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: auto; /* keeps original size */
+}
