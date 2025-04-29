@@ -1,13 +1,18 @@
 /* Recipe Styles */
 .recipeContainer {
-  text-align: center; /* Center the title */
+  text-align: center;
+  padding: 20px;
+}
+
+.recipeContainer h2 {
+  font-size: 40px;
   padding: 20px;
 }
 
 .recipeList {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   padding: 0;
 }
@@ -29,9 +34,15 @@
   padding: 5px;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 .recipeList a:hover {
   text-decoration: none;
-  color: inherit;
+  color: blue;
+  text-decoration: underline;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,7 +50,13 @@
   height: 100%;
 }
 
-.recipeList p {
+.recipeTitle {
+  font-size: 30px;
   margin: 10px 0;
   font-weight: bold;
+}
+.recipeLink {
+  margin: 10px 0;
+  font-weight: bold;
+  font-size: larger;
 }
